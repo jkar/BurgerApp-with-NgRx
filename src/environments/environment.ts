@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   recipesUrl: 'https://ng-course-recipe-book-99d04-default-rtdb.firebaseio.com/recipes.json',
-  signUpUrl: 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyDb0xTaRAoxyCgvaDF3kk5VYOsTwB_3o7Y',
+  signUpUrl: 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/signupNewUser?key=AIzaSyAUY2wzIJJcHXLVWJwLROEhMB26iTh0_6M',
   LogInUrl: 'https://www.googleapis.com/identitytoolkit/v3/relyingparty/verifyPassword?key=AIzaSyAUY2wzIJJcHXLVWJwLROEhMB26iTh0_6M'
 };
 
