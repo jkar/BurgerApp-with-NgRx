@@ -11,7 +11,7 @@ export const CLEAR_ERROR = '[AUTH] Clear Error'
 export class AuthenticateSuccess implements Action {
     readonly type = AUTHENTICATE_SUCCESS;
 
-    constructor(public payload: { email: string; userId: string; token: string; expirartionDate: Date; }) {}
+    constructor(public payload: { email: string; userId: string; token: string; expirartionDate: Date; redirect: boolean; }) {}
 }
 
 export class  Logout implements Action {
